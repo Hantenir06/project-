@@ -1,0 +1,524 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+body{
+    font-family: sans-serif;
+    background: rgb(229, 228, 228);
+}
+
+.container{
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header{
+    padding: 80px 0 0 0;
+   background: url("/img/Bitmap\ \(1\).png");
+   height: 900px;
+   margin-top: 20px;
+}
+.black{
+    width: 1760px;
+    height: 900px;
+    background: rgba(0, 0, 0, 0.629);
+    margin-top: -100px;
+}
+
+.block{
+    margin-left: 950px;
+}
+
+.text {
+margin-top: -520px;
+margin-left: 300px;
+position: absolute;
+}
+
+.text img{
+    margin-top: 300px;
+    margin-left: 520px;
+}
+
+.text h1{
+    font-size: 65px;
+    color: white;
+}
+
+.text p{
+    color: white;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 50px;
+   font-weight: 100;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+   padding: 0 20px;
+   font-size: 18px;
+}
+
+.foto{
+    margin-left: 400px;
+    margin-top: 150px;
+}
+.green{
+    width: 200px;
+    height: 400px;
+    background: rgba(0, 128, 0, 0.61);
+    margin-left: 709px;
+    margin-top: -340px;
+}
+
+.green1{
+    width: 80px;
+    height: 65px;
+    background: rgba(0, 128, 0, 0.767);
+    margin-left: 629px;
+    margin-top: -65px;
+ 
+}
+
+.img2{
+    margin-top: -300px;
+    margin-left: 810px;
+    position: absolute;
+    z-index: -999;
+}
+
+.block2 h2{
+margin-top: -350px;
+margin-left: 250px;
+}
+
+.block2 h3{
+    margin-left: 250px;
+    font-size: 40px;
+    font-weight: 100;
+    color:rgb(182, 174, 174);
+    margin-top: 10px;
+}
+
+.block2 p{
+    width: 330px;
+    font-size: 20px;
+    color: rgb(156, 153, 153);
+    margin-left: 270px;
+    margin-top: 45px;
+}
+
+.block2 h4{
+    width: 330px;
+    font-size: 20px;
+    color: rgb(156, 153, 153);
+    margin-left: 1090px;
+    margin-top: 95px;
+    font-weight: 100;
+}
+.tex h1{
+font-size: 60px;
+margin-top: 140px;
+position: absolute;
+margin-left: 190px;
+}
+
+.blocks{
+    background: rgb(249, 244, 244);
+    height: 300px;
+    width: 400px;
+padding: 35px;
+margin-left: 90px;
+margin-top: 180px;
+}
+.card{
+    display: flex;
+    
+    align-items: center;
+}
+
+.bot h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: rgb(77, 76, 76);
+    font-family: 100;
+}
+.card img{
+    padding: 20px;
+    border-radius: 50%;
+    background: rgb(230, 223, 223);
+}
+.ss{
+    width: 40px;
+    height: 3px;
+    background: black;
+    margin-top: -10px;
+}
+.bot{
+    width: 290px;
+}
+
+.blocks p{
+    margin-top: 20px;
+    color: rgb(157, 153, 153);
+}
+
+.blocks h2{
+    margin-top: 60px;
+    font-size: 14px;
+    color: rgb(192, 184, 184);
+    font-weight: 300;
+}
+.hero{
+    display: flex;
+
+    background: rgb(234, 228, 228);
+    padding: 100px;
+    align-items: center;
+    width: 1760px;
+margin-top: 800px;
+height: 800px;
+}
+
+.num2 h1{
+    font-size: 60px;
+    color: black;
+margin-top: 60px;
+
+}
+.num{
+    display: flex;
+    justify-content: space-around;
+}
+.fotos{
+    margin-top: 150px;
+}
+.a{
+    display: flex;
+    gap: 50px;
+    margin-top: 80px;
+}
+.a a{
+    color: rgb(58, 55, 55);
+    text-decoration: none;
+   
+}
+.num1 h1{
+    position: absolute;
+    font-size: 60px;
+    margin-top: -150px;
+    margin-left: -230px;
+    width: 400px;
+   font-weight: 100;
+}
+
+.num3{
+    display: flex;
+    justify-content: space-around;
+    gap: 350px;
+    margin-top: -70px;
+}
+.num4 h1{
+    position: absolute;
+    margin-top: -180px;
+    font-size: 60px;
+    width: 350px;
+    margin-left: 330px;
+    font-weight: 100;
+ 
+}
+.num5 h1{
+    margin-top: 120px;
+    
+    font-weight: 100;
+    color: rgb(85, 83, 83);
+    font-size: 18px;
+}
+
+.num5 p{
+    width: 300px;
+    text-align: end;
+    margin-top: 40px;
+    color: rgb(136, 131, 131);
+    margin-left: -195px;
+}
+.num5{
+    width: 250px;
+}
+
+.num6{
+    display: flex;
+    justify-content: space-around;
+    gap: 210px;
+    margin-top: -90px;
+}
+
+.num8 h1{
+    position: absolute;
+    margin-top: -185px;
+    font-size: 60px;
+    width: 650px;
+    font-weight: 100;
+    margin-left: -300px;
+}
+.num7 h1{
+    margin-top: 120px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.num7 p{
+    width: 350px;
+    color: rgb(134, 134, 134);
+    margin-top: 30px;
+}
+
+.num7 h2{
+    margin-top: 40px;
+    font-size: 12px;
+    font-weight:100 ;
+}
+.num9{
+    display: flex;
+    justify-content: space-around;
+    gap: 180px;
+    align-items: center;
+    margin-top: -100px;
+}
+
+.car h1{
+    position: absolute;
+    font-size: 60px;
+    margin-top: -180px;
+    margin-left: 300px;
+    width: 400px;
+    font-weight: 100;
+}
+.car2 h1{
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(98, 97, 97);
+    margin-left: 200px;
+}
+.car2 p{
+    width: 300px;
+    text-align: end;
+    margin-top: 40px;
+}
+.car2{
+    width: 420px;
+ 
+}
+.car3{
+    display: flex;
+    justify-content: space-around;
+    gap: 550px;
+    margin-top: 30px;
+}
+.car4 h1{
+    width: 480px;
+}
+.car4 h1{
+    font-weight: 100;
+    font-size: 18px;
+    color: rgb(139, 134, 134);
+    margin-left: 260px;
+}
+.car4 p{
+    width: 300px;
+    margin-left: 260px;
+    margin-top: 30px;
+    color: rgb(131, 127, 127);
+}
+.car5 h1{
+    font-weight: 100;
+    color: black;
+    font-size: 18px;
+    margin-top: 70px;
+    margin-left: -160px;
+}
+
+.fotos2{
+    width: 1760px;
+    height: 780px;
+    background: rgb(233, 233, 235);
+    display: flex;
+    gap: 60px;
+    padding: 260px;
+    margin-top: 120px;
+}
+
+.car6 h1{
+    position: absolute;
+    margin-top: -54px;
+    padding: 13px 125.5px;
+font-size: 20px;
+font-weight: 100;
+    background: rgba(255, 255, 255, 0.679);
+}
+.poz{
+position: absolute;
+margin-top: -151px;
+
+padding: 10px 75px;
+background: rgba(255, 255, 255, 0.708);
+}
+.poz h1{
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.sss{
+    width: 50px;
+    height: 3px;
+    background: black;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.poz h2{
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.poz p{
+    margin-top: 10px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.car9 h1{
+    padding: 10px 118.8px;
+    font-weight: 100;
+    background: rgba(255, 255, 255, 0.634);
+    position: absolute;
+    margin-top: -52px;
+}
+.car7 h1{
+    position: absolute;
+    font-size: 60px;
+    font-weight: 900;
+    margin-left: 260px;
+    margin-top: 100px;
+}
+
+.fotos3 p{
+    width: 750px;
+    text-align: center;
+    margin-left: 510px;
+    margin-top: 50px;
+    color: rgb(92, 89, 89);
+}
+.quote{
+    margin-left: 880px;
+    margin-top: 30px;
+}
+.star{
+    margin-left: 840px;
+    margin-top: 30px;
+}
+.arr{
+    margin-left: 320px;
+    margin-top: 30px;
+}
+
+.fotos3 h1{
+    margin-left: 730px;
+    margin-top: 30px;
+    font-weight: 100;
+}
+
+
+.fotos3 span{
+    color:rgb(174, 172, 172);
+    font-size: 18px;
+}
+
+.blot{
+    width: 900px;
+    height: 400px;
+    background: rgb(213, 210, 210);
+}
+.fotos4{
+    display: flex;
+    margin-top: 100px;
+}
+
+.blot img{
+    margin-top: 100px;
+    margin-left: 430px;
+}
+.blot h1{
+    margin-left: 290px;
+    color: rgb(81, 79, 79);
+    margin-top: 30px;
+    font-size: 28px;
+}
+.blot p{
+    margin-left: 320px;
+    margin-top: 30px;
+    color: rgb(69, 67, 67);
+}
+.blot2{
+    width: 900px;
+    height: 400px;
+    background: rgb(91, 177, 91);
+}
+
+
+
+.blot2 img{
+    margin-top: 100px;
+    margin-left: 430px;
+}
+.blot2 h1{
+    margin-left: 375px;
+   color: white;
+    margin-top: 30px;
+    font-size: 28px;
+}
+.blot2 p{
+    margin-left: 405px;
+    margin-top: 30px;
+   color: white;
+}
+
+.footer{
+    width: 1760px;
+    height: 500px;
+    background:#2E2E2E;
+}
+
+.footer h1{
+    color: rgb(159, 155, 155);
+    margin-left: 650px;
+    padding: 190px 0 0 0;
+    font-size: 18px;
+}
+.footer p{
+    margin-left: 720px;
+    margin-top: 40px;
+    color:rgb(159, 155, 155);
+}
+.footer img{
+    margin-left: 810px;
+    margin-top: 40px;
+}
+.blacks{
+    width: 1760px;
+    height: 80px;
+    background: #252525;
+    margin-top: 120px;
+}
+.blacks p{
+    color: rgb(159, 155, 155);
+    margin-left: 680px;
+padding: 35px 0;
+cursor: pointer;
+
+}
